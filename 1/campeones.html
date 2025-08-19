@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Campeones de la Liga MX</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url("https://i.pinimg.com/736x/9e/fa/91/9efa91b3c0e2bec1eed6fa05ade07bef.jpg") no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Impact', sans-serif;
+      font-size: 3em;
+      color: #FFD700;
+      text-shadow: 2px 2px 6px #000;
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 1.2em;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    .tabla {
+      max-width: 800px;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background: rgba(0,0,0,0.7);
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0px 0px 15px #000;
+    }
+
+    .tabla th, .tabla td {
+      padding: 15px;
+      border-bottom: 1px solid #32CD32;
+    }
+
+    .tabla th {
+      background: rgba(255, 215, 0, 0.9);
+      color: #000;
+      font-size: 1.3em;
+      text-transform: uppercase;
+    }
+
+    .equipo {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 15px;
+      font-weight: bold;
+      font-size: 1.2em;
+      color: #32CD32;
+      transition: transform 0.3s, color 0.3s;
+    }
+
+    .equipo img {
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+      transition: transform 0.3s;
+    }
+
+    tr:hover {
+      background: rgba(255, 215, 0, 0.7);
+    }
+
+    tr:hover .equipo {
+      color: #000;
+    }
+
+    tr:hover img {
+      transform: scale(1.2);
+    }
+
+    hr {
+      border: 1px solid #FFD700;
+      margin: 20px auto;
+      width: 80%;
+    }
+
+    .volver a {
+      font-size: 1.2em;
+      color: #ff4c4c;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .volver a:hover {
+      color: #32CD32;
+      text-shadow: 1px 1px 6px #fff;
+    }
+  </style>
+</head>
+<body>
+  <h1>🏆 Campeones históricos ⚽</h1>
+  <p>Los equipos con más títulos en la Liga MX son:</p>
+
+  <table class="tabla">
+    <tr>
+      <th>Equipo</th>
+      <th>Títulos</th>
+    </tr>
+    <tr>
+      <td class="equipo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSB8gh5myoUl5rVAy1CbZ2aPdPN1uXHNM2-w&s" alt="América">América</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td class="equipo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQnxWgXiUwM2lhYbNMqnbNOdMc8ToTWznqKA&s" alt="Chivas">Guadalajara</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td class="equipo"><img src="https://www.infobae.com/resizer/v2/I6F2R3I2GVAVVFE7W6ZSZP7DRQ.jpg?auth=3cc4b2203aa41ce82a6e13faff7c89279c3038735aa7fa1fc0212b6a0034f2a7&smart=true&width=350&height=233&quality=85" alt="Toluca">Toluca</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td class="equipo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcSXkAxXBJV4QKAm0m8F228qxkIJBop5VvoA&s" alt="Cruz Azul">Cruz Azul</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td class="equipo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq39mgFwgD_DvqX5BQsqV8-wqqpUmOO5E8mg&s" alt="León">León</td>
+      <td>8</td>
+    </tr>
+  </table>
+
+  <p>
+    La historia de los campeones refleja la rivalidad y competitividad de la liga.
+  </p>
+
+  <hr>
+  <p class="volver"><a href="indice.html">🏟️ Volver al índice</a></p>
+</body>
+</html>

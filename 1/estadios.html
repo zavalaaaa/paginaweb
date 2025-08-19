@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Estadios de la Liga MX</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url("https://i.pinimg.com/736x/9e/fa/91/9efa91b3c0e2bec1eed6fa05ade07bef.jpg") no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Impact', sans-serif;
+      font-size: 3em;
+      color: #FFD700;
+      text-shadow: 2px 2px 6px #000;
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 1.2em;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    .estadio {
+      background: rgba(0,0,0,0.75);
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0px 0px 15px #000;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .estadio:hover {
+      transform: scale(1.07);
+      box-shadow: 0px 0px 20px #FFD700;
+    }
+
+    .estadio a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .estadio img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      transition: opacity 0.3s;
+    }
+
+    .estadio img:hover {
+      opacity: 0.9;
+    }
+
+    .estadio h3 {
+      margin: 10px 0;
+      font-size: 1.2em;
+      color: #32CD32;
+      text-shadow: 1px 1px 5px #000;
+    }
+
+    hr {
+      border: 1px solid #FFD700;
+      margin: 20px auto;
+      width: 80%;
+    }
+
+    .volver a {
+      font-size: 1.2em;
+      color: #ff4c4c;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .volver a:hover {
+      color: #32CD32;
+      text-shadow: 1px 1px 6px #fff;
+    }
+  </style>
+</head>
+<body>
+  <h1>🏟️ Estadios de la Liga MX ⚽</h1>
+  <p>
+    La liga cuenta con algunos de los estadios más importantes de Latinoamérica:
+  </p>
+
+  <div class="galeria">
+    <div class="estadio">
+      <a href="https://www.google.com/maps/place/estadio+azteca/@19.3023163,-99.1635398,17z/data=!3m1!4b1!4m6!3m5!1s0x85ce010029de5b6d:0x104315c005714cb6!8m2!3d19.3023163!4d-99.1609649!16s%2Fg%2F11w8wm1qq0?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGDgBSqla6L8-YWUPWocdWGByUmsIPqY3vzQ&s" alt="Estadio Azteca">
+        <h3>Estadio Azteca – Ciudad de México</h3>
+      </a>
+    </div>
+    <div class="estadio">
+      <a href="https://www.google.com/maps/place/Estadio+Akron/@20.6817764,-103.4652204,17z/data=!3m1!4b1!4m6!3m5!1s0x8428a937898a8eb3:0x52ad0db6ee356b88!8m2!3d20.6817764!4d-103.4626455!16zL20vMGQwY240?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+        <img src="https://estadioakron.mx/img/acceso_directo/acceso_como_llego.jpg" alt="Estadio Akron">
+        <h3>Estadio Akron – Guadalajara</h3>
+      </a>
+    </div>
+    <div class="estadio">
+      <a href="https://www.google.com/maps/place/Estadio+Universitario+de+la+UANL/@25.7225253,-100.3145496,17z/data=!3m1!4b1!4m6!3m5!1s0x86629453362b628f:0x4758ce0b56be25e7!8m2!3d25.7225253!4d-100.3119747!16zL20vMDQ4eXM5?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGlE3x9jgogcWm4OEDESUm-I1RRlqyGb8i7Q&s" alt="Estadio Universitario">
+        <h3>Estadio Universitario – Monterrey</h3>
+      </a>
+    </div>
+    <div class="estadio">
+      <a href="https://www.google.com/maps/place/Estadio+BBVA/@25.669118,-100.2491136,17z/data=!3m1!4b1!4m6!3m5!1s0x8662c019f7a4c8d7:0xbf478dc0c2c5944d!8m2!3d25.6691181!4d-100.2445002!16s%2Fm%2F03c9trf?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmofgdGM_EbxkK6mwLTEqBQ-IOetSvSCzuLQ&s" alt="Estadio BBVA">
+        <h3>Estadio BBVA – Monterrey</h3>
+      </a>
+    </div>
+    <div class="estadio">
+      <a href="https://www.google.com/maps/place/Estadio+Nemesio+Diez/@19.2872936,-99.6694513,17z/data=!3m1!4b1!4m6!3m5!1s0x85cd89b8119f071f:0x791bfe3eb04b84a4!8m2!3d19.2872936!4d-99.6668764!16zL20vMDZmbGNq?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzv5LISjhEP2Jub9OJD4AvVKwW-SyBEC_TJg&s" alt="Estadio Nemesio Díez">
+        <h3>Estadio Nemesio Díez – Toluca</h3>
+      </a>
+    </div>
+  </div>
+
+  <p>
+    Estos recintos son templos del fútbol y han sido sede de eventos históricos.
+  </p>
+
+  <hr>
+  <p class="volver"><a href="indice.html">🏟️ Volver al índice</a></p>
+</body>
+</html>
